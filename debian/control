@@ -1,0 +1,12 @@
+Source: ros-galactic-rqt-image-overlay
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-galactic-ament-cmake, ros-galactic-ament-cmake-gtest, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-image-transport, ros-galactic-pluginlib, ros-galactic-rclcpp, ros-galactic-ros-image-to-qimage, ros-galactic-rqt-gui-cpp, ros-galactic-rqt-image-overlay-layer, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rqt-image-overlay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-galactic-image-transport, ros-galactic-pluginlib, ros-galactic-rclcpp, ros-galactic-ros-image-to-qimage, ros-galactic-rqt-gui-cpp, ros-galactic-rqt-image-overlay-layer, ros-galactic-ros-workspace
+Description: An rqt plugin to display overlays for custom msgs on an image using plugins.
