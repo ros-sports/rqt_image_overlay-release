@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-image-overlay-layer
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rcpputils, ros-rolling-rosidl-runtime-cpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-image-overlay-layer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rcpputils, ros-rolling-rosidl-runtime-cpp, ros-rolling-ros-workspace
+Description: Provides an rqt_image_overlay_layer plugin interface, and a template impelementation class
