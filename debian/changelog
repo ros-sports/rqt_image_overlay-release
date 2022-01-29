@@ -1,0 +1,15 @@
+ros-rolling-rqt-image-overlay (0.0.2-1focal) focal; urgency=high
+
+  * adapt to new changes in cpplint about using a leading "./" in include statements
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 28 Jan 2022 15:00:00 -0000
+
+ros-rolling-rqt-image-overlay (0.0.1-1focal) focal; urgency=high
+
+  * Initial release
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 07 Jan 2022 15:00:00 -0000
+
+

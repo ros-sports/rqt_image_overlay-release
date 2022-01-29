@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-image-overlay
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-image-transport, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-image-to-qimage, ros-rolling-rqt-gui-cpp, ros-rolling-rqt-image-overlay-layer, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-image-overlay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-rolling-image-transport, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-image-to-qimage, ros-rolling-rqt-gui-cpp, ros-rolling-rqt-image-overlay-layer, ros-rolling-ros-workspace
+Description: An rqt plugin to display overlays for custom msgs on an image using plugins.
